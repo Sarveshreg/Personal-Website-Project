@@ -1,0 +1,8 @@
+This is my journal!
+
+10/19/2023-Thursday
+    1. Need to create a webpage 
+    2. ensure it reflects your personality. 
+    3. figure out how to implement a js function..
+    4. read up on js fundamentals in order to prepare for the class on monday.
+    
