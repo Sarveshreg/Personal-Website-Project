@@ -39,4 +39,28 @@ hr{
     font-size: 25px;
     margin-bottom: 50px;
 }
-
+#test-body{
+        width: 1600px;;
+        border: solid purple 1px;
+        margin:0 auto;
+        height: auto;
+}
+#test-header{
+    width: 1600px;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    column-gap: 60px;
+    border: solid black 5px;
+    font-size: 60px;
+}
+#test-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+    column-gap: 60px;
+    border: solid black 5px;
+    font-size: 30px;
+}
