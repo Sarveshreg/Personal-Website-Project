@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me!</title>
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body id="main-body">
     <div id="test-header">
-        <div><a href="test.html">Home</a></div>
+        <div><a href="index.html">Home</a></div>
         <div><a href="test-about.html">About me</a></div>
         <div><a href="test-portfolio.html">Portfolio</a></div>
         <div><a href="contact.html">Contact Me</a></div>
     </div>
-        <div id="contact-form" style="text-align: center;">
-            <h3>Please provide your information below to Contact me.</h3>    <!--Unit-->
+        <div id="contact-form" >
+            <h2 class="contact-header">Please provide your information below to Contact me. </h2>   
                 <form action="form-submitted.html">
-                    <label for="fname">First Name</label><br>
-                    <input class="textboxid" type="text" value=""><br>
-                    <label for="lname">Last Name</label><br>
-                    <input class="textboxid" type="text" value=""><br>
-                    <label for="email">Email</label><br>
-                    <input class="textboxid" type="email" value=""><br>
+                    <div id="form-body">
+                        <label for="fname">First Name</label>
+                        <input class="textboxid" type="text" value=""><br>
+                        <label for="lname">Last Name</label>
+                        <input class="textboxid" type="text" value=""><br>
+                        <label for="email">Email</label>
+                        <input class="textboxid" type="email" value=""><br> 
 
-                    <label for="message">Message</label><br>
-                    <textarea name="message" rows="10" cols="60" style="font-size: 18px;"></textarea><br>
-
-                    <input class="textboxid" type="submit" value="Submit">
-                    <input class="textboxid" type="reset" value="Reset">
+                        <label for="message">Message</label>
+                        <textarea class="text-area" name="message" rows="10" cols="30" style="font-size: 26px;"></textarea><br>
+                        <span>
+                            <input class="buttons" type="submit" value="Submit">
+                            <input class="buttons" type="reset" value="Reset">
+                        </span>
+                    </div>
                 </form>
+                <br>
             <div id="footer">
-                <div id="social-media"><a href="https://linkedin.com/in/sarvesh-regmi" target="_blank"><img src="https://www.micro-measurements.com/themes/custom/mm/images/linkedin-logo.png" alt="linkedin logo" height="140px" width="140px"></a></div>
-                <div class="social-media2"><a href="https://github.com/Sarveshreg" target="_blank"><img src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="Github Icon" height="140px" width="140px"></a></div>
+                <div id="social-media"><a href="https://linkedin.com/in/sarvesh-regmi" target="_blank"><img class="icon" src="https://www.micro-measurements.com/themes/custom/mm/images/linkedin-logo.png" alt="linkedin logo" height="140px" width="140px"></a></div>
+                <div class="social-media2"><a href="https://github.com/Sarveshreg" target="_blank"><img class="icon" src="https://cdn-icons-png.flaticon.com/256/25/25231.png" alt="Github Icon" height="140px" width="140px"></a></div>
             </div>
         </div>
     
