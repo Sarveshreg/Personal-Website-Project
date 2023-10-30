@@ -1,9 +1,10 @@
 #main-body{
     /* width: calc(var(innerWidth)); */
     width: 1650px;
+    height: calc(width/1.25);
     border: solid purple 1px;
     margin:0 auto;
-    height: fit-content;
+    /* height: fit-content; */
     background-color: rgb(216, 248, 237);
 }
 #test-header{
@@ -15,7 +16,10 @@ align-items: baseline;
 column-gap: 60px;
 border: solid black 1px;
 font-size: 55px;
-color: antiquewhite;
+color: rgb(250, 249, 215);
+position: sticky;
+top:0;
+background-color:rgb(22, 22, 23);
 }
 #test-body{
 display: flex;
@@ -108,6 +112,11 @@ h3{
 
 a:link{
     text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: bisque;
 }
 
 a:hover{
